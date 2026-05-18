@@ -1,0 +1,277 @@
+/* Koko sivun tyyliasetukset */
+body {
+    margin: 0;
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
+/* h1 fontin paksuus */
+h1 {
+    font-weight: 600;
+}
+
+/* Isompi h2 */
+.h2-big {
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+/* Navigaation tyyliasetukset */
+.navbar {
+    background-color: rgba(203, 225, 221, 0.9);
+}
+
+/* Navigaation linkkien tyyliasetukset, kun linkin päälle viedään hiiri */
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+/* Navigaation linkkien tyyliasetukset, kun sivu on aktiivinen */
+.nav-link.active {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    font-weight: 600;
+}
+
+/* Navigaation linkkien ja "brändin" tyyliasetukset */
+.nav-link, .navbar-brand {
+    color: black;
+    font-size: 1rem;
+}
+
+/* Navigaation "brändin" tyyliasetukset */
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Navigaation hampurilaisvalikon reunat pois, kun sitä klikataan */
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Etusivun hero-bannerien tyyliasetukset */
+.hero-etusivu {
+    position: relative;
+    background-image: url("../images/Hero_Etusivu.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Pakumatkailun hero-bannerien tyyliasetukset */
+.hero-pakumatkailu {
+    position: relative;
+    background-image: url("../images/Hero_Pakumatkailu.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Reissublogin hero-bannerien tyyliasetukset */
+.hero-reissublogi {
+    position: relative;
+    background-image: url("../images/Hero_Reissublogi.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Minusta hero-bannerien tyyliasetukset */
+.hero-minusta {
+    position: relative;
+    background-image: url("../images/Hero_Minusta.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Hero-bannerien h1 tyyliasetukset */
+.hero-text {
+    position: absolute;
+    top: 56%;
+    left: 5%;
+    font-size: clamp(3.5rem, 7vw, 5rem);
+}
+
+/* Etusivun pakumatkailu-osion tyyliasetukset */
+.etusivu-pakumatkailu {
+    margin-top: 5rem;
+}
+
+/* Etusivun ja pakumatkailu sivun reissublogi-osion tyyliasetukset */
+.etusivu-reissublogi, .pakumatkailu-reissublogi {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* Etusivun minusta -osion tyyliasetukset */
+.etusivu-minusta {
+    position: relative;
+    background-image: url("../images/Hero_Minusta.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    color: white;
+}
+
+/* Etusivun minusta-osion tekstisisällön tyyliasetukset */
+.etusivu-minusta-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+/* Pakumatkailu sivun vapaus, seikkailu ja spontaanius-osion tyyliasetukset */
+.pakumatkailu-vapaus {
+    position: relative;
+    background-color: #CBE1DC;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: black;
+    margin-bottom: 5rem;
+}
+
+/* Pakumatkailu sivun vapaus, seikkailu ja spontaanius-osion tyyliasetukset */
+.minusta-seikkailukaveri {
+    position: relative;
+    background-color: #CBE1DC;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: black;
+    margin-bottom: 5rem;
+}
+
+/* Minusta sivun ota yhteytta-osion marginaalit */
+.minusta-ota-yhteytta {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* Reissublogi sivun hero-kuvan jälkeisen osion tyyliasetukset */
+.reissublogi-pakumatkat {
+    position: relative;
+    background-color: #CBE1DC;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: black;
+}
+
+/* Reissublogi ja Pakumatkailu sivujen lista osioiden marginaalit */
+.reissublogi-lista-osio {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* Reissublogi ja Pakumatkailu sivujen listojen tyyliasetukset */
+.reissublogi-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Primary painikkeessa mustat reunat ja teksti */
+.btn-primary {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Primary painike muuttuu hiiren ollessa sen päällä: taustaväri sinivihreä ja teksti valkoinen */
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #307164;
+    color: white;
+    border: 2px solid #307164;
+}
+
+/* Secondary painikkeessa valkoiset reunat ja teksti */
+.btn-secondary {
+    background-color: #307164;
+    color: white;
+    border: 2px solid #307164;
+}
+
+/* Secondary painike muuttuu hiiren ollessa sen päällä: taustaväri sinivihreä ja teksti valkoinen */
+.btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled):active {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Success painikkeessa sinivihreä taustaväri ja valkoinen teksti */
+.btn-success {
+    background-color: #307164;
+    color: white;
+    border: 2px solid #307164;
+    
+}
+
+/* Success painike muuttuu hiiren ollessa sen päällä: taustaväri läpinäkyvä, reunat ja teksti musta */
+.btn-success:hover, .btn-success:not(:disabled):not(.disabled):active {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Pyöristetyt reunat yksittäisessä kuvassa */
+.img-fluid {
+    border-radius: 1%;
+}
+
+/* Kuvagallerian kuvien reunat suoriksi */
+.img-gallery-img {
+    border-radius: 0;
+}
+
+/* Minusta sivun kuvan korkeuden tyyliasetukset */
+.img-vh {
+    max-height: 70vh;
+}
+
+/* Kuvan leveys 100% */
+.img-100 {
+    width: 100%;
+}
+
+/* Koko Card-elementin tyyliasetukset */
+.card {
+    border: none;
+}
+
+/* Card-elementin kuvien tyyliasetukset */
+.card-img-top {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+/* Card-elementin tekstisisällön tyyliasetukset */
+.card-body {
+    padding: 1rem 0;
+}
+
+/* Ota yhteyttä -lomakkeen nimi, sähköposti ja numero kenttien tyyliasetukset */
+.contact-form-input {
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    padding: 0.5rem 0;
+    line-height: 1.5rem;
+}
+
+/* Ota yhteyttä -lomakkeen tekstikentän tyyliasetukset */
+.contact-form-textarea {
+    height: calc(42rem / 16);
+    resize: vertical;
+}
+
+/* Footerin tyyliasetukset */
+footer {
+    background-color: #CBE1DC;
+    padding-top: 4rem;
+    padding-bottom: 0.1rem;
+}

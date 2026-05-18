@@ -1,0 +1,1 @@
+Verkkosivuprojektini Websivuston kehittämisen kurssilla. Verkkosivustoni on fiktiivinen matkablogi, jossa kerron vinkkejä pakettiautomatkailuun ja jaan reissutarinoita. Avaan myös omaa taustaani ja syitä, joiden ansiosta rakastuin pakettiautomatkailuun.
